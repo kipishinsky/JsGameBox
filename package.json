@@ -1,0 +1,25 @@
+{
+  "name": "AppBox",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "homepage": "https://github.com/kipishinsky/JsGameBox#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kipishinsky/JsGameBox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kipishinsky/JsGameBox/issues"
+  }
+}
